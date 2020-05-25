@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  !!word.capitalize.match(/\A+[AEIOU]/)
+  if word.match
+ 
 
 end
 
