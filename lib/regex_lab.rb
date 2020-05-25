@@ -10,7 +10,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  text.match(/\b[a-zA-Z]{5}\b/)
+  text.match(/[a-zA-Z]{5}\w/)
 
 end
 
